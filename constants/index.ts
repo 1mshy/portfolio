@@ -7,75 +7,6 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-export const SKILL_DATA = [
-  {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Node.js",
-    image: "node.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Python",
-    image: "python.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Java",
-    image: "java.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Rust",
-    image: "rust.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Docker",
-    image: "docker.png",
-    width: 70,
-    height: 70,
-  },
-] as const;
-
 export const SOCIALS = [
   {
     name: "GitHub",
@@ -109,14 +40,14 @@ export const FRONTEND_SKILL = [
     height: 65,
   },
   {
-    skill_name: "React",
-    image: "react.png",
+    skill_name: "TypeScript",
+    image: "ts.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "TypeScript",
-    image: "ts.png",
+    skill_name: "React",
+    image: "react.png",
     width: 80,
     height: 80,
   },
@@ -126,12 +57,36 @@ export const FRONTEND_SKILL = [
     width: 80,
     height: 80,
   },
+  {
+    skill_name: "Tailwind CSS",
+    image: "tailwind.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Framer Motion",
+    image: "framer.png",
+    width: 80,
+    height: 80,
+  },
 ] as const;
 
 export const BACKEND_SKILL = [
   {
     skill_name: "Node.js",
     image: "node.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Express",
+    image: "express.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "MongoDB",
+    image: "mongodb.png",
     width: 80,
     height: 80,
   },
@@ -210,13 +165,6 @@ export const PROJECTS = [
     title: "Pixels In Peril",
     description:
       "A multiplayer shooter game developed with JavaFX featuring a packet-based system for real-time synchronization, lobby management, and RSA encryption. Developed collaboratively using Scrum methodology and Jira for project management.",
-    image: "/projects/project-3.png",
-    link: "https://github.com/1mshy",
-  },
-  {
-    title: "QUARCC Simulation",
-    description:
-      "A commodities trading simulation platform connecting a ReactJS frontend with a Gin backend via two-way websockets. Developed a price engine to simulate commodity price volatility for educational purposes.",
     image: "/projects/project-3.png",
     link: "https://github.com/1mshy",
   },
